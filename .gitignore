@@ -1,0 +1,51 @@
+.gradle/
+.idea/
+.gradle/
+.spinnaker_json/
+.docker-build/
+*.iml
+target/
+*.jar
+*.lst
+*.ipr
+*.iws
+*.retry
+.envrc
+db-migrations/**/build.gradle
+db-migrations/**/settings.gradle
+node_modules/
+.vscode/
+
+# Eclipse java
+.classpath
+.project
+.settings/
+
+# Node Npm-Debug Log File
+npm-debug.log
+/*/*/dataSources
+/*/*/.ideaDataSources
+/infra/devops/cerebro/kube-monitoring-scripts/blueprint/app/**/dashboards
+
+# infra-devops related
+.db/
+.terraform/
+.cloudctl/.run
+*.tfstate
+*.tfstate.backup
+.notes/
+.build/
+.run/
+
+.vscode/
+
+# java related
+*.class
+
+# python related
+*.pyc
+*__pycache__*
+
+# macos
+.DS_Store
+.Spotlight-V100
